@@ -18,11 +18,11 @@ function Hero() {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
 
-          <button className="bg-white text-[#7A1F1F] px-8 py-3 rounded-lg font-semibold hover:scale-105 transition">
+          <button onClick={() => document.getElementById("gallery").scrollIntoView({ behavior: "smooth"})} className="bg-white text-[#7A1F1F] px-8 py-3 rounded-lg font-semibold hover:scale-105 transition">
             View Gallery
           </button>
 
-          <button className="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#7A1F1F] transition">
+          <button onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth"})} className="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#7A1F1F] transition">
             Contact Us
           </button>
 

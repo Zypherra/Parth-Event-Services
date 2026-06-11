@@ -75,7 +75,7 @@ function Footer() {
               Facebook
             </a>
 
-            <a href="#" className="hover:text-[#D4AF37]">
+            <a href="https://wa.me/+919307738792" className="hover:text-[#D4AF37]">
               WhatsApp
             </a>
           </div>
@@ -86,7 +86,7 @@ function Footer() {
             All Rights Reserved.
           </p>
 
-          <h4 className="pl-20">
+          <h4 className="md:pl-20 sm:pl-0">
             <a href="#" className="hover:text-amber-400">Back to top</a>
           </h4>
 

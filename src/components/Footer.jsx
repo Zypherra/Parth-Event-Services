@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="bg-[#7A1F1F] text-white">
@@ -25,10 +27,10 @@ function Footer() {
             </h3>
 
             <ul className="space-y-2 text-gray-200">
-              <li>Paan Counter</li>
-              <li>Fruit Counter</li>
-              <li>Balloon Decoration</li>
-              <li>Flower Decoration</li>
+              <li><Link to="/paan-counter">Paan Counter</Link></li>
+              <li><Link to="/fruit-counter">Fruit Counter</Link></li>
+              <li><Link to="/decorations">Balloon Decoration</Link></li>
+              <li><Link to="/decorations">Flower Decoration</Link></li>
             </ul>
           </div>
 

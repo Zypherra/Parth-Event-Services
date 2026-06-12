@@ -5,13 +5,18 @@ function Navbar() {
 
         <div>
           <h1 className="text-3xl font-bold text-[#7A1F1F]">
-            <a href="#">Parth Event Services</a>
+            <a href="/">Parth Event Services</a>
           </h1>
         </div>
 
-        <ul className="text-2xl hidden md:flex gap-8">
+        <ul className="text-2xl hidden lg:flex gap-8">
           <li className="cursor-pointer hover:text-[#f78e0f]">
             <a href="#" class="group transition duration-300 ease-in-out hover:text-[#f78e0f]">Home
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
+            </a>
+          </li>
+          <li className="cursor-pointer hover:text-[#f78e0f]">
+            <a href="#about" class="group transition duration-300 ease-in-out hover:text-[#f78e0f]">About Us
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
             </a>
           </li>
@@ -22,11 +27,6 @@ function Navbar() {
           </li>
           <li className="cursor-pointer hover:text-[#f78e0f]">
             <a href="#gallery" class="group transition duration-300 ease-in-out hover:text-[#f78e0f]">Gallery
-            <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
-            </a>
-          </li>
-          <li className="cursor-pointer hover:text-[#f78e0f]">
-            <a href="#choose" class="group transition duration-300 ease-in-out hover:text-[#f78e0f]">About Us
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
             </a>
           </li>

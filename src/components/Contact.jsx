@@ -1,4 +1,4 @@
-function ContactCTA() {
+function Contact() {
   return (
     <section id="contact" className="py-24 px-6 bg-[#f8f5f0]">
       <div className="max-w-5xl mx-auto text-center">
@@ -40,4 +40,4 @@ function ContactCTA() {
   );
 }
 
-export default ContactCTA;
+export default Contact;

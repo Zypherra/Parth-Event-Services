@@ -63,7 +63,7 @@ function AboutPaan() {
           </div>
 
           <a
-            href="#gallery"
+            href="#services"
             className="
               inline-block
               bg-gradient-to-r

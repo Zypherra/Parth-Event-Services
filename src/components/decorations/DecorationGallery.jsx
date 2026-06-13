@@ -3,64 +3,121 @@ function DecorationGallery() {
     {
       title: "Royal Wedding Stage",
       category: "Wedding",
-      image:
-        "https://images.unsplash.com/photo-1519741497674-611481863552",
+      image:"/images/decorations/balloon1.jpeg",
       height: "h-[450px]",
     },
     {
       title: "Luxury Floral Entrance",
       category: "Wedding",
-      image:
-        "https://images.unsplash.com/photo-1519225421980-715cb0215aed",
+      image:"/images/decorations/balloon2.jpeg",
       height: "h-[320px]",
     },
     {
       title: "Birthday Balloon Theme",
       category: "Birthday",
-      image:
-        "https://images.unsplash.com/photo-1464349153735-7db50ed83c84",
+      image:"/images/decorations/balloon3.jpeg",
       height: "h-[400px]",
     },
     {
       title: "Corporate Event Setup",
       category: "Corporate",
-      image:
-        "https://images.unsplash.com/photo-1511578314322-379afb476865",
+      image:"/images/decorations/balloon4.jpeg",
       height: "h-[520px]",
     },
     {
       title: "Baby Shower Decoration",
       category: "Baby Shower",
-      image:
-        "https://images.unsplash.com/photo-1513151233558-d860c5398176",
+      image:"/images/decorations/balloon5.jpeg",
       height: "h-[350px]",
     },
     {
       title: "Festival Decoration",
       category: "Festival",
-      image:
-        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622",
+      image:"/images/decorations/balloon6.jpeg",
       height: "h-[430px]",
     },
     {
       title: "Romantic Anniversary Setup",
       category: "Anniversary",
-      image:
-        "https://images.unsplash.com/photo-1527529482837-4698179dc6ce",
+      image:"/images/decorations/balloon7.jpeg",
       height: "h-[300px]",
     },
     {
       title: "Premium Flower Arrangement",
       category: "Wedding",
-      image:
-        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205",
+      image:"/images/decorations/balloon8.jpeg",
       height: "h-[500px]",
     },
     {
       title: "Elegant Reception Decor",
       category: "Wedding",
-      image:
-        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622",
+      image:"/images/decorations/balloon9.jpeg",
+      height: "h-[380px]",
+    },
+    {
+      title: "Royal Wedding Stage",
+      category: "Wedding",
+      image:"/images/decorations/balloon10.jpeg",
+      height: "h-[450px]",
+    },
+    {
+      title: "Luxury Floral Entrance",
+      category: "Wedding",
+      image:"/images/decorations/balloon11.jpeg",
+      height: "h-[320px]",
+    },
+    {
+      title: "Birthday Balloon Theme",
+      category: "Birthday",
+      image:"/images/decorations/balloon12.jpeg",
+      height: "h-[400px]",
+    },
+    {
+      title: "Corporate Event Setup",
+      category: "Corporate",
+      image:"/images/decorations/balloon13.jpeg",
+      height: "h-[520px]",
+    },
+    {
+      title: "Baby Shower Decoration",
+      category: "Baby Shower",
+      image:"/images/decorations/balloon14.jpeg",
+      height: "h-[350px]",
+    },
+    {
+      title: "Festival Decoration",
+      category: "Festival",
+      image:"/images/decorations/balloon15.jpeg",
+      height: "h-[430px]",
+    },
+    {
+      title: "Romantic Anniversary Setup",
+      category: "Anniversary",
+      image:"/images/decorations/balloon16.jpeg",
+      height: "h-[300px]",
+    },
+    {
+      title: "Premium Flower Arrangement",
+      category: "Wedding",
+      image:"/images/decorations/balloon17.jpeg",
+      height: "h-[500px]",
+    },
+    {
+      title: "Elegant Reception Decor",
+      category: "Wedding",
+      image:"/images/decorations/balloon18.jpeg",
+      height: "h-[380px]",
+    },
+    {
+      title: "Premium Flower Arrangement",
+      category: "Wedding",
+      image:"/images/decorations/balloon19.jpeg",
+      height: "h-[500px]",
+    },
+    {
+      title: "Elegant Reception Decor",
+      category: "Wedding",
+      image:"/images/decorations/balloon20.jpeg",
       height: "h-[380px]",
     },
   ];

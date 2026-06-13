@@ -22,32 +22,32 @@ function Gallery() {
       category: "Fruit",
     },
     {
-      image: "src/assets/balloon1.jpeg",
+      image: "/images/decorations/balloon1.jpeg",
       title: "Balloon Decoration",
       category: "Decoration",
     },
     {
-      image: "src/assets/balloon5.jpeg",
+      image: "/images/decorations/balloon5.jpeg",
       title: "Balloon Decoration",
       category: "Decoration",
     },
     {
-      image: "src/assets/balloon9.jpeg",
+      image: "/images/decorations/balloon9.jpeg",
       title: "Balloon Decoration",
       category: "Decoration",
     },
     {
-      image: "src/assets/balloon10.jpeg",
+      image: "/images/decorations/balloon10.jpeg",
       title: "Balloon Decoration",
       category: "Decoration",
     },
     {
-      image: "src/assets/balloon18.jpeg",
+      image: "/images/decorations/balloon18.jpeg",
       title: "Wedding Flower Decoration",
       category: "Decoration",
     },
     {
-      image: "src/assets/balloon16.jpeg",
+      image: "/images/decorations/balloon16.jpeg",
       title: "Wedding Flower Decoration",
       category: "Decoration",
     },

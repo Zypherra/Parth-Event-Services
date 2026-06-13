@@ -7,7 +7,7 @@ function Services() {
       description:
         "Premium paan counters with a variety of traditional and modern paan flavors, perfect for weddings and special events.",
       icon: "🌿",
-      image: "src/assets/paan-service.jpeg",
+      image: "/images/home/paan-service.jpeg",
       path: "/paan-counter",
     },
     {
@@ -15,7 +15,7 @@ function Services() {
       description:
         "Fresh fruit counters beautifully presented with hygienic preparation and attractive displays.",
       icon: "🍓",
-      image: "src/assets/fruit-service.jpeg",
+      image: "/images/home/fruit-service.jpeg",
       path: "/fruit-counter",
     },
     {
@@ -23,7 +23,7 @@ function Services() {
       description:
         "Creative decoration solutions for weddings, birthdays, anniversaries, and corporate events.",
       icon: "🎈",
-      image: "src/assets/balloon-service.jpeg",
+      image: "/images/home/balloon-service.jpeg",
       path: "/decorations",
     },
   ];

@@ -3,121 +3,121 @@ function DecorationGallery() {
     {
       title: "Royal Wedding Stage",
       category: "Wedding",
-      image:"/images/decorations/balloon1.jpeg",
+      image: "/images/decorations/balloon1.jpeg",
       height: "h-[450px]",
     },
     {
       title: "Luxury Floral Entrance",
       category: "Wedding",
-      image:"/images/decorations/balloon2.jpeg",
+      image: "/images/decorations/balloon2.jpeg",
       height: "h-[320px]",
     },
     {
       title: "Birthday Balloon Theme",
       category: "Birthday",
-      image:"/images/decorations/balloon3.jpeg",
+      image: "/images/decorations/balloon3.jpeg",
       height: "h-[400px]",
     },
     {
       title: "Corporate Event Setup",
       category: "Corporate",
-      image:"/images/decorations/balloon4.jpeg",
+      image: "/images/decorations/balloon4.jpeg",
       height: "h-[520px]",
     },
     {
       title: "Baby Shower Decoration",
       category: "Baby Shower",
-      image:"/images/decorations/balloon5.jpeg",
+      image: "/images/decorations/balloon5.jpeg",
       height: "h-[350px]",
     },
     {
       title: "Festival Decoration",
       category: "Festival",
-      image:"/images/decorations/balloon6.jpeg",
+      image: "/images/decorations/balloon6.jpeg",
       height: "h-[430px]",
     },
     {
       title: "Romantic Anniversary Setup",
       category: "Anniversary",
-      image:"/images/decorations/balloon7.jpeg",
+      image: "/images/decorations/balloon7.jpeg",
       height: "h-[300px]",
     },
     {
       title: "Premium Flower Arrangement",
       category: "Wedding",
-      image:"/images/decorations/balloon8.jpeg",
+      image: "/images/decorations/balloon8.jpeg",
       height: "h-[500px]",
     },
     {
       title: "Elegant Reception Decor",
       category: "Wedding",
-      image:"/images/decorations/balloon9.jpeg",
+      image: "/images/decorations/balloon9.jpeg",
       height: "h-[380px]",
     },
     {
       title: "Royal Wedding Stage",
       category: "Wedding",
-      image:"/images/decorations/balloon10.jpeg",
+      image: "/images/decorations/balloon10.jpeg",
       height: "h-[450px]",
     },
     {
       title: "Luxury Floral Entrance",
       category: "Wedding",
-      image:"/images/decorations/balloon11.jpeg",
+      image: "/images/decorations/balloon11.jpeg",
       height: "h-[320px]",
     },
     {
       title: "Birthday Balloon Theme",
       category: "Birthday",
-      image:"/images/decorations/balloon12.jpeg",
+      image: "/images/decorations/balloon12.jpeg",
       height: "h-[400px]",
     },
     {
       title: "Corporate Event Setup",
       category: "Corporate",
-      image:"/images/decorations/balloon13.jpeg",
+      image: "/images/decorations/balloon13.jpeg",
       height: "h-[520px]",
     },
     {
       title: "Baby Shower Decoration",
       category: "Baby Shower",
-      image:"/images/decorations/balloon14.jpeg",
+      image: "/images/decorations/balloon14.jpeg",
       height: "h-[350px]",
     },
     {
       title: "Festival Decoration",
       category: "Festival",
-      image:"/images/decorations/balloon15.jpeg",
+      image: "/images/decorations/balloon15.jpeg",
       height: "h-[430px]",
     },
     {
       title: "Romantic Anniversary Setup",
       category: "Anniversary",
-      image:"/images/decorations/balloon16.jpeg",
+      image: "/images/decorations/balloon16.jpeg",
       height: "h-[300px]",
     },
     {
       title: "Premium Flower Arrangement",
       category: "Wedding",
-      image:"/images/decorations/balloon17.jpeg",
+      image: "/images/decorations/balloon17.jpeg",
       height: "h-[500px]",
     },
     {
       title: "Elegant Reception Decor",
       category: "Wedding",
-      image:"/images/decorations/balloon18.jpeg",
+      image: "/images/decorations/balloon18.jpeg",
       height: "h-[380px]",
     },
     {
       title: "Premium Flower Arrangement",
       category: "Wedding",
-      image:"/images/decorations/balloon19.jpeg",
+      image: "/images/decorations/balloon19.jpeg",
       height: "h-[500px]",
     },
     {
       title: "Elegant Reception Decor",
       category: "Wedding",
-      image:"/images/decorations/balloon20.jpeg",
+      image: "/images/decorations/balloon20.jpeg",
       height: "h-[380px]",
     },
   ];
@@ -197,14 +197,17 @@ function DecorationGallery() {
                   absolute
                   inset-0
                   bg-gradient-to-t
-                  from-[#9333EA]/90
+                  from-[#9333EA]/80
                   via-[#EC4899]/30
                   to-transparent
-                  opacity-0
-                  group-hover:opacity-100
+
+                  opacity-100
+                  md:opacity-0
+                  md:group-hover:opacity-100
+
                   transition
                   duration-500
-                "
+  "
               ></div>
 
               {/* Category Badge */}
@@ -228,19 +231,23 @@ function DecorationGallery() {
               </span>
 
               {/* Hover Content */}
+              {/* Gallery Content */}
               <div
                 className="
-                  absolute
-                  bottom-0
-                  left-0
-                  right-0
-                  p-6
-                  text-white
-                  translate-y-full
-                  group-hover:translate-y-0
-                  transition
-                  duration-500
-                "
+    absolute
+    bottom-0
+    left-0
+    right-0
+    p-6
+    text-white
+
+    translate-y-0
+    md:translate-y-full
+    md:group-hover:translate-y-0
+
+    transition
+    duration-500
+  "
               >
                 <h3 className="text-xl font-bold">
                   {item.title}

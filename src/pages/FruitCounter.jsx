@@ -1,5 +1,10 @@
 import Navbar from "../components/Navbar.jsx";
-import Stats from "../components/Stats.jsx";
+import FruitHero from "../components/fruit-counter/FruitHero.jsx";
+import AboutFruit from "../components/fruit-counter/AboutFruit.jsx";
+import FruitCounterTypes from "../components/fruit-counter/FruitCounterTypes.jsx";
+import FruitVarieties from "../components/fruit-counter/FruitVarieties.jsx";
+import FruitGallery from "../components/fruit-counter/FruitGallery.jsx";
+import WhyChooseFruit from "../components/fruit-counter/WhyChooseFruit.jsx";
 import Contact from "../components/Contact.jsx";
 import Footer from "../components/Footer.jsx";
 
@@ -7,13 +12,12 @@ function FruitCounter() {
   return (
     <>
       <Navbar />
-      <div className="py-24 px-6 bg-gray-50">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl font-bold text-[#7A1F1F] mb-4">Luxury Fruit Counter</h1>
-          <p className="text-gray-600">Discover our premium fruit counter arrangements</p>
-        </div>
-      </div>
-      <Stats />
+      <FruitHero />
+      <AboutFruit />
+      <FruitCounterTypes />
+      <FruitVarieties />
+      <FruitGallery />
+      <WhyChooseFruit />
       <Contact />
       <Footer />
     </>

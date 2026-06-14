@@ -45,33 +45,44 @@ image: "/images/fruits/banana.jpg",
 const premiumFruits = [
 {
 name: "Kiwi",
-image: "/images/fruits/kiwi.jpeg",
+image: "/images/fruits/kiwi.webp",
 },
 {
   name: "Dragon Fruit",
-  image: "/images/fruits/dragonfruit.jpg"
+  image: "/images/fruits/dragonfruit.webp",
+},
+{
+  name: "Litchi",
+  image: "/images/fruits/litchi.jpg",
 },
 {
 name: "Cherry",
-image: "/images/fruits/cherry.jpeg",
+image: "/images/fruits/cherry.png",
 },
 {
 name: "Blueberry",
-image: "/images/fruits/blueberry.jpeg",
+image: "/images/fruits/blueberry.avif",
 },
 {
 name: "Pear",
-image: "/images/fruits/pear.jpeg",
+image: "/images/fruits/pear.webp",
 },
 {
 name: "Washington Apple",
-image: "/images/fruits/apple.jpeg",
+image: "/images/fruits/apple2.webp",
 },
 {
-name: "Mandarin",
-image: "/images/fruits/mandarin.jpeg",
+name: "Plum",
+image: "/images/fruits/plum.jpg",
 },
-{}
+{
+  name: "Peach",
+  image: "/images/fruits/peach.jpg",
+},
+{
+  name: "Dates",
+  image: "/images/fruits/dates.jpg",
+},
 ];
 
 return ( <section className="py-24 px-6 bg-white"> <div className="max-w-7xl mx-auto">
@@ -133,7 +144,7 @@ return ( <section className="py-24 px-6 bg-white"> <div className="max-w-7xl mx-
         Premium Imported Fruits
       </h3>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
         {premiumFruits.map((fruit, index) => (
           <div
             key={index}

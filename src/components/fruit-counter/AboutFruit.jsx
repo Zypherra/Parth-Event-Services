@@ -5,7 +5,7 @@ function AboutFruit() {
 
         <div className="overflow-hidden rounded-3xl shadow-xl">
           <img
-            src="/images/fruits/about-fruit.jpeg"
+            src="/images/fruits/g2.jpeg"
             alt="Fruit Counter"
             className="w-full h-full object-cover hover:scale-105 transition duration-500"
           />

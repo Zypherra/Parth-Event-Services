@@ -4,43 +4,37 @@ function PaanCategories() {
       title: "Meetha Paan",
       description:
         "A traditional sweet paan loved by guests of all ages.",
-      image:
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+      image: "/images/paan/meetha-paan.jpg",
     },
     {
       title: "Banarasi Paan",
       description:
         "Authentic Banarasi style paan prepared with rich traditional flavors.",
-      image:
-        "https://images.unsplash.com/photo-1547592180-85f173990554",
+      image: "/images/paan/banarasi-paan.webp",
     },
     {
       title: "Chocolate Paan",
       description:
         "A modern favorite combining classic paan with delicious chocolate flavors.",
-      image:
-        "https://images.unsplash.com/photo-1511381939415-e44015466834",
+      image: "/images/paan/choco-paan.jpg",
     },
     {
       title: "Fire Paan",
       description:
         "A thrilling live experience that adds excitement to your event.",
-      image:
-        "https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+      image: "/images/paan/fire-paan.webp",
     },
     {
       title: "Ice Paan",
       description:
         "Refreshing and cooling paan variety perfect for summer celebrations.",
-      image:
-        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      image: "/images/paan/ice-paan.avif",
     },
     {
       title: "Premium Special Paan",
       description:
         "Luxury paan varieties customized for weddings and premium events.",
-      image:
-        "https://images.unsplash.com/photo-1551024601-bec78aea704b",
+      image: "/images/paan/premium-paan.jpg",
     },
   ];
 
@@ -113,6 +107,7 @@ function PaanCategories() {
                   {item.description}
                 </p>
 
+                <a href="#contact">
                 <button
                   className="
                     text-[#D4AF37]
@@ -124,6 +119,7 @@ function PaanCategories() {
                 >
                   Learn More →
                 </button>
+                </a>
 
               </div>
 

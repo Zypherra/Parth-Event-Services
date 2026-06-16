@@ -4,37 +4,37 @@ const services = [
 title: "Seasonal Fruit Counter",
 description:
 "Fresh seasonal fruits carefully selected and beautifully displayed for your guests.",
-image: "/images/fruits/seasonal-fruits.jpeg",
+image: "/images/fruits/g2.jpeg",
 },
 {
 title: "Premium Imported Fruits",
 description:
 "Exclusive imported fruits including kiwi, cherries, blueberries and more for a luxurious experience.",
-image: "/images/fruits/imported-fruits.jpeg",
+image: "/images/fruits/plate3.jpeg",
 },
 {
 title: "Wedding Fruit Counter",
 description:
 "Elegant fruit displays designed to complement wedding themes and enhance guest experience.",
-image: "/images/fruits/wedding-fruit-counter.jpeg",
+image: "/images/fruits/g3.jpeg",
 },
 {
 title: "Corporate Event Counter",
 description:
 "Healthy and attractive fruit counters perfect for corporate gatherings and professional events.",
-image: "/images/fruits/corporate-fruit-counter.jpeg",
+image: "/images/fruits/g8.jpeg",
 },
 {
 title: "Live Fruit Serving",
 description:
 "Freshly cut and served fruits prepared live to ensure maximum freshness and hygiene.",
-image: "/images/fruits/live-fruit-serving.jpeg",
+image: "/images/fruits/plate7.jpeg",
 },
 {
 title: "Customized Fruit Display",
 description:
 "Personalized fruit arrangements created according to your event theme and requirements.",
-image: "/images/fruits/custom-fruit-display.jpeg",
+image: "/images/fruits/g7.jpeg",
 },
 ];
 
@@ -93,10 +93,11 @@ return ( <section className="py-24 px-6 bg-[#FFFDF5]"> <div className="max-w-7xl
             <p className="text-gray-600 mb-4">
               {service.description}
             </p>
-
-            <button className="text-[#F97316] font-semibold hover:translate-x-1 transition">
-              Learn More →
-            </button>
+            <a href="#contact">
+              <button className="text-[#F97316] font-semibold hover:translate-x-1 transition">
+                Learn More →
+              </button>
+            </a>
           </div>
         </div>
       ))}

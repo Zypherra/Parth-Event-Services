@@ -100,6 +100,7 @@ function DecorationCategories() {
                   {category.description}
                 </p>
 
+                <a href="#contact">
                 <button
                   className="
                     text-[#EC4899]
@@ -111,6 +112,8 @@ function DecorationCategories() {
                 >
                   Learn More →
                 </button>
+                </a>
+
               </div>
             </div>
           ))}

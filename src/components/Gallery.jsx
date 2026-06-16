@@ -17,7 +17,37 @@ function Gallery() {
       category: "Paan",
     },
     {
-      image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf",
+      image: "/images/fruits/plate2.jpeg",
+      title: "Luxury Fruit Counter",
+      category: "Fruit",
+    },
+    {
+      image: "/images/decorations/balloon5.jpeg",
+      title: "Balloon Decoration",
+      category: "Decoration",
+    },
+    {
+      image: "/images/fruits/plate3.jpeg",
+      title: "Luxury Fruit Counter",
+      category: "Fruit",
+    },
+    {
+      image: "/images/fruits/plate4.jpeg",
+      title: "Luxury Fruit Counter",
+      category: "Fruit",
+    },
+    {
+      image: "/images/decorations/balloon10.jpeg",
+      title: "Balloon Decoration",
+      category: "Decoration",
+    },
+    {
+      image: "/images/fruits/plate5.jpeg",
+      title: "Luxury Fruit Counter",
+      category: "Fruit",
+    },
+    {
+      image: "/images/fruits/plate6.jpeg",
       title: "Luxury Fruit Counter",
       category: "Fruit",
     },
@@ -27,17 +57,27 @@ function Gallery() {
       category: "Decoration",
     },
     {
-      image: "/images/decorations/balloon5.jpeg",
-      title: "Balloon Decoration",
-      category: "Decoration",
+      image: "/images/fruits/g2.jpeg",
+      title: "Luxury Fruit Counter",
+      category: "Fruit",
+    },
+    {
+      image: "/images/fruits/g3.jpeg",
+      title: "Luxury Fruit Counter",
+      category: "Fruit",
+    },
+    {
+      image: "/images/fruits/g7.jpeg",
+      title: "Luxury Fruit Counter",
+      category: "Fruit",
+    },
+    {
+      image: "/images/fruits/g8.jpeg",
+      title: "Luxury Fruit Counter",
+      category: "Fruit",
     },
     {
       image: "/images/decorations/balloon9.jpeg",
-      title: "Balloon Decoration",
-      category: "Decoration",
-    },
-    {
-      image: "/images/decorations/balloon10.jpeg",
       title: "Balloon Decoration",
       category: "Decoration",
     },

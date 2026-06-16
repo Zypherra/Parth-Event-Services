@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Services() {
   const services = [
     {
-      title: "Paan Counter",
+      title: "The Paan Junction",
       description:
         "Premium paan counters with a variety of traditional and modern paan flavors, perfect for weddings and special events.",
       icon: "🌿",
@@ -11,7 +11,7 @@ function Services() {
       path: "/paan-counter",
     },
     {
-      title: "Fruit Counter",
+      title: "The Fruit Junction",
       description:
         "Fresh fruit counters beautifully presented with hygienic preparation and attractive displays.",
       icon: "🍓",
@@ -21,7 +21,7 @@ function Services() {
     {
       title: "Balloon & Flower Decoration",
       description:
-        "Creative decoration solutions for weddings, birthdays, anniversaries, and corporate events.",
+        "Creative decoration solutions for weddings, birthdays, anniversaries, pooja and corporate events.",
       icon: "🎈",
       image: "/images/home/balloon-service.jpeg",
       path: "/decorations",

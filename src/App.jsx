@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
+import WhatsAppButton from "./components/WhatsappButton";
 import Decorations from "./pages/Decorations";
 import PaanCounter from "./pages/PaanCounter";
 import FruitCounter from "./pages/FruitCounter";
@@ -10,6 +11,7 @@ function App() {
   return(
     <BrowserRouter>
       <ScrollToTop />
+      <WhatsAppButton />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/decorations" element={<Decorations />} />

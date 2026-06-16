@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaFacebook, FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -68,17 +69,17 @@ function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
 
-          <div className="flex gap-4">
+          <div className="flex gap-6 px-4">
             <a href="#" className="hover:text-[#D4AF37]">
-              Instagram
+              <FaInstagram size={28}></FaInstagram>
             </a>
 
             <a href="#" className="hover:text-[#D4AF37]">
-              Facebook
+              <FaFacebook size={28}></FaFacebook>
             </a>
 
             <a href="https://wa.me/+919307738792" className="hover:text-[#D4AF37]">
-              WhatsApp
+              <FaWhatsapp size={28}></FaWhatsapp>
             </a>
           </div>
 

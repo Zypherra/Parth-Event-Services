@@ -18,7 +18,7 @@ function AboutFruit() {
           </p>
 
           <h2 className="text-4xl font-bold text-[#7C2D12] mb-6">
-            Fresh Fruit Counters Designed To Delight Guests
+            The Fruit Junction
           </h2>
 
           <p className="text-gray-600 leading-relaxed mb-4">

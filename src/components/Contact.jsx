@@ -1,3 +1,5 @@
+import { FaWhatsapp } from "react-icons/fa";
+
 function Contact() {
   return (
     <section id="contact" className="py-24 px-6 bg-[#f8f5f0]">
@@ -28,9 +30,9 @@ function Contact() {
             href="https://wa.me/919307738792"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-700 transition"
+            className="bg-green-600 text-white px-8 py-4 rounded-xl font-semibold flex flex-row gap-2 align-middle hover:bg-green-700 transition"
           >
-            💬 WhatsApp Us
+            <FaWhatsapp size={20}></FaWhatsapp> <span>WhatsApp Us</span>
           </a>
 
         </div>

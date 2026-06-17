@@ -2,45 +2,50 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function WhatsAppButton() {
     return (
-        <div className="flex flex-col">
-            <a
-                href="YOUR_WHATSAPP_LINK"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="
-    fixed
-    bottom-6
-    right-6
-    z-50
+        <div className="fixed bottom-6 right-6 z-50">
+  
+  <span
+    className="
+      absolute
+      inset-0
+      rounded-full
+      bg-green-500
+      animate-ping
+      opacity-30
+    "
+  ></span>
 
-    flex
-    items-center
-    gap-2
+  <a
+    href="YOUR_WHATSAPP_LINK"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      relative
+      flex
+      items-center
+      gap-2
 
-    bg-green-500
-    text-white
+      bg-green-500
+      text-white
 
-    px-4
-    py-3
+      px-4
+      py-3
 
-    rounded-full
+      rounded-full
+      shadow-lg
 
-    shadow-lg
-    hover:scale-105
-    hover:bg-green-600
+      hover:scale-105
+      transition
+    "
+  >
+    <FaWhatsapp size={28} />
 
-    transition
-    duration-300
-  "
-            >
-                <FaWhatsapp size={28} />
+    <span className="hidden md:block font-medium">
+      Whatsapp Now
+    </span>
+  </a>
 
-                <span className="hidden md:block font-medium">
-                    WhatsApp Us
-                </span>
-            </a>
-
-        </div>
+</div>
     );
 }
 

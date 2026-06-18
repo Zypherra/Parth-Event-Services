@@ -129,7 +129,7 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
 
     {/* Desktop WhatsApp Button */}
     <a
-      href="YOUR_WHATSAPP_LINK"
+      href="https://wa.me/+919307738792"
       target="_blank"
       rel="noopener noreferrer"
       className="
@@ -150,7 +150,7 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
         transition
       "
     >
-      WhatsApp
+      Book Now
     </a>
 
     {/* Hamburger */}
@@ -254,18 +254,19 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
         🎈 Decorations
       </Link>
 
-      <a href="#gallery">
+      <a href="#gallery" onClick={() => setMobileOpen(false)}>
         Gallery
       </a>
 
-      <a href="#contact">
+      <a href="#contact" onClick={() => setMobileOpen(false)}>
         Contact Us
       </a>
 
       <a
-        href="YOUR_WHATSAPP_LINK"
+        href="https://wa.me/+919307738792"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => setMobileOpen(false)}
         className="
           bg-[#7A1F1F]
           text-white

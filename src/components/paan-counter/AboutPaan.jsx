@@ -4,9 +4,9 @@ function AboutPaan() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
         {/* Image */}
-        <div className="overflow-hidden rounded-3xl shadow-xl">
+        <div className="overflow-hidden rounded-3xl shadow-xl h-150 w-125">
           <img
-            src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f"
+            src="/images/paan/paan-logo.jpeg"
             alt="Premium Paan Counter"
             className="w-full h-full object-cover hover:scale-105 transition duration-500"
           />

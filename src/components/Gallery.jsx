@@ -12,7 +12,17 @@ function Gallery() {
 
   const galleryItems = [
     {
-      image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3",
+      image: "/images/paan/g1.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
+      image: "/images/paan/a1.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
+      image: "/images/paan/meetha-paan.jpg",
       title: "Premium Paan Counter",
       category: "Paan",
     },
@@ -22,9 +32,19 @@ function Gallery() {
       category: "Fruit",
     },
     {
+      image: "/images/paan/g5.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
       image: "/images/decorations/balloon5.jpeg",
       title: "Balloon Decoration",
       category: "Decoration",
+    },
+    ,{
+      image: "/images/paan/p1.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
     },
     {
       image: "/images/fruits/plate3.jpeg",
@@ -32,19 +52,59 @@ function Gallery() {
       category: "Fruit",
     },
     {
+      image: "/images/paan/g7.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
+      image: "/images/paan/g12.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
       image: "/images/fruits/plate4.jpeg",
       title: "Luxury Fruit Counter",
       category: "Fruit",
+    },
+    {
+      image: "/images/paan/g10.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
+      image: "/images/paan/g14.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
+      image: "/images/paan/p3.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
     },
     {
       image: "/images/decorations/balloon10.jpeg",
       title: "Balloon Decoration",
       category: "Decoration",
     },
+    ,{
+      image: "/images/paan/g15.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
+      image: "/images/paan/a2.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
     {
       image: "/images/fruits/plate5.jpeg",
       title: "Luxury Fruit Counter",
       category: "Fruit",
+    },
+    {
+      image: "/images/paan/a5.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
     },
     {
       image: "/images/fruits/plate6.jpeg",
@@ -57,9 +117,19 @@ function Gallery() {
       category: "Decoration",
     },
     {
+      image: "/images/paan/a6.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
+    },
+    {
       image: "/images/fruits/g2.jpeg",
       title: "Luxury Fruit Counter",
       category: "Fruit",
+    },
+    {
+      image: "/images/paan/a8.jpeg",
+      title: "Premium Paan Counter",
+      category: "Paan",
     },
     {
       image: "/images/fruits/g3.jpeg",

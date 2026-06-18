@@ -3,65 +3,194 @@ function PaanGallery() {
     {
       title: "Premium Paan Counter",
       category: "Setup",
-      image:
-        "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f",
+      image: "/images/paan/a1.jpeg",
       height: "h-[450px]",
     },
     {
       title: "Live Paan Preparation",
       category: "Experience",
-      image:
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+      image: "/images/paan/g1.jpeg",
       height: "h-[320px]",
+    },
+    {
+      title: "Fresh Ingredients",
+      category: "Quality",
+      image: "/images/paan/premium-paan.jpg",
+      height: "h-[430px]",
     },
     {
       title: "Wedding Paan Counter",
       category: "Wedding",
-      image:
-        "https://images.unsplash.com/photo-1519741497674-611481863552",
+      image: "/images/paan/p1.jpeg",
       height: "h-[400px]",
     },
     {
       title: "Luxury Display",
       category: "Premium",
-      image:
-        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      image: "/images/paan/g2.jpeg",
       height: "h-[520px]",
     },
     {
       title: "Guest Experience",
       category: "Event",
-      image:
-        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622",
+      image: "/images/paan/g3.jpeg",
       height: "h-[350px]",
     },
     {
       title: "Fresh Ingredients",
       category: "Quality",
-      image:
-        "https://images.unsplash.com/photo-1547592180-85f173990554",
+      image: "/images/paan/p2.jpeg",
       height: "h-[430px]",
     },
     {
       title: "Custom Counter Design",
       category: "Setup",
-      image:
-        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205",
+      image: "/images/paan/g4.jpeg",
       height: "h-[300px]",
     },
     {
       title: "Special Event Service",
       category: "Events",
-      image:
-        "https://images.unsplash.com/photo-1513151233558-d860c5398176",
+      image: "images/paan/a3.jpeg",
       height: "h-[500px]",
+    },
+    {
+      title: "Custom Counter Design",
+      category: "Setup",
+      image: "/images/paan/g5.jpeg",
+      height: "h-[300px]",
     },
     {
       title: "Traditional Hospitality",
       category: "Tradition",
-      image:
-        "https://images.unsplash.com/photo-1511578314322-379afb476865",
+      image: "images/paan/banarasi-paan.webp",
       height: "h-[380px]",
+    },
+    {
+      title: "Traditional Hospitality",
+      category: "Tradition",
+      image: "images/paan/g6.jpeg",
+      height: "h-[480px]",
+    },
+    {
+      title: "Premium Paan Counter",
+      category: "Setup",
+      image: "/images/paan/a4.jpeg",
+      height: "h-[450px]",
+    },
+    {
+      title: "Fresh Ingredients",
+      category: "Quality",
+      image: "/images/paan/choco-paan.jpg",
+      height: "h-[430px]",
+    },
+    {
+      title: "Live Paan Preparation",
+      category: "Experience",
+      image: "/images/paan/a2.jpeg",
+      height: "h-[320px]",
+    },
+    {
+      title: "Wedding Paan Counter",
+      category: "Wedding",
+      image: "/images/paan/p3.jpeg",
+      height: "h-[400px]",
+    },
+    {
+      title: "Luxury Display",
+      category: "Premium",
+      image: "/images/paan/g7.jpeg",
+      height: "h-[520px]",
+    },
+    {
+      title: "Guest Experience",
+      category: "Event",
+      image: "/images/paan/g8.jpeg",
+      height: "h-[350px]",
+    },
+    {
+      title: "Fresh Ingredients",
+      category: "Quality",
+      image: "/images/paan/a5.jpeg",
+      height: "h-[430px]",
+    },
+    {
+      title: "Custom Counter Design",
+      category: "Setup",
+      image: "/images/paan/g9.jpeg",
+      height: "h-[300px]",
+    },
+    {
+      title: "Special Event Service",
+      category: "Events",
+      image: "images/paan/a6.jpeg",
+      height: "h-[500px]",
+    },
+    {
+      title: "Custom Counter Design",
+      category: "Setup",
+      image: "/images/paan/g10.jpeg",
+      height: "h-[300px]",
+    },
+    {
+      title: "Traditional Hospitality",
+      category: "Tradition",
+      image: "images/paan/g11.jpeg",
+      height: "h-[380px]",
+    },
+    {
+      title: "Premium Paan Counter",
+      category: "Setup",
+      image: "/images/paan/a7.jpeg",
+      height: "h-[450px]",
+    },
+    {
+      title: "Live Paan Preparation",
+      category: "Experience",
+      image: "/images/paan/g12.jpeg",
+      height: "h-[320px]",
+    },
+    {
+      title: "Wedding Paan Counter",
+      category: "Wedding",
+      image: "/images/paan/g8.jpeg",
+      height: "h-[400px]",
+    },
+    {
+      title: "Luxury Display",
+      category: "Premium",
+      image: "/images/paan/g14.jpeg",
+      height: "h-[520px]",
+    },
+    {
+      title: "Guest Experience",
+      category: "Event",
+      image: "/images/paan/a8.jpeg",
+      height: "h-[350px]",
+    },
+    {
+      title: "Fresh Ingredients",
+      category: "Quality",
+      image: "/images/paan/g15.jpeg",
+      height: "h-[430px]",
+    },
+    {
+      title: "Custom Counter Design",
+      category: "Setup",
+      image: "/images/paan/g4.jpeg",
+      height: "h-[300px]",
+    },
+    {
+      title: "Special Event Service",
+      category: "Events",
+      image: "images/paan/a3.jpeg",
+      height: "h-[500px]",
+    },
+    {
+      title: "Custom Counter Design",
+      category: "Setup",
+      image: "/images/paan/g5.jpeg",
+      height: "h-[300px]",
     },
   ];
 

@@ -22,4 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-public/images/fruitsExtra
+public/images/paanExtra/
+public/images/fruitsExtra/

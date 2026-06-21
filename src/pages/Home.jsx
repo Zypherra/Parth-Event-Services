@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
+import AboutUs from "../components/AboutUs.jsx";
 import Services from "../components/Services.jsx";
 import Gallery from "../components/Gallery.jsx";
 import Choose from "../components/Choose.jsx";
@@ -13,6 +14,7 @@ function Home() {
     <>
       <Navbar/>
       <Hero/>
+      <AboutUs />
       <Services />
       <Gallery />
       <Choose />

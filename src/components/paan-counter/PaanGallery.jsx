@@ -8,7 +8,7 @@ function PaanGallery() {
     },
     {
       title: "Live Paan Preparation",
-      category: "Experience",
+      category: "Setup",
       image: "/images/paan/g1.jpeg",
       height: "h-[320px]",
     },
@@ -19,8 +19,8 @@ function PaanGallery() {
       height: "h-[430px]",
     },
     {
-      title: "Wedding Paan Counter",
-      category: "Wedding",
+      title: "Premium Paan",
+      category: "Premium",
       image: "/images/paan/p1.jpeg",
       height: "h-[400px]",
     },
@@ -55,20 +55,20 @@ function PaanGallery() {
       height: "h-[500px]",
     },
     {
-      title: "Custom Counter Design",
+      title: "Staff with proper Dress",
       category: "Setup",
       image: "/images/paan/g5.jpeg",
       height: "h-[300px]",
     },
     {
-      title: "Traditional Hospitality",
+      title: "Traditional Paan",
       category: "Tradition",
       image: "images/paan/banarasi-paan.webp",
       height: "h-[380px]",
     },
     {
-      title: "Traditional Hospitality",
-      category: "Tradition",
+      title: "Paan Counter Setup",
+      category: "Setup",
       image: "images/paan/g6.jpeg",
       height: "h-[480px]",
     },
@@ -79,7 +79,7 @@ function PaanGallery() {
       height: "h-[450px]",
     },
     {
-      title: "Fresh Ingredients",
+      title: "Chocolate Paan",
       category: "Quality",
       image: "/images/paan/choco-paan.jpg",
       height: "h-[430px]",
@@ -87,18 +87,18 @@ function PaanGallery() {
     {
       title: "Live Paan Preparation",
       category: "Experience",
-      image: "/images/paan/a2.jpeg",
+      image: "/images/paan/p3.jpeg",
       height: "h-[320px]",
     },
     {
       title: "Wedding Paan Counter",
       category: "Wedding",
-      image: "/images/paan/p3.jpeg",
+      image: "/images/paan/a2.jpeg",
       height: "h-[400px]",
     },
     {
-      title: "Luxury Display",
-      category: "Premium",
+      title: "Simple Paan Counter Display",
+      category: "Simple",
       image: "/images/paan/g7.jpeg",
       height: "h-[520px]",
     },
@@ -109,8 +109,8 @@ function PaanGallery() {
       height: "h-[350px]",
     },
     {
-      title: "Fresh Ingredients",
-      category: "Quality",
+      title: "Paan Counter Decor",
+      category: "Decor",
       image: "/images/paan/a5.jpeg",
       height: "h-[430px]",
     },
@@ -121,7 +121,7 @@ function PaanGallery() {
       height: "h-[300px]",
     },
     {
-      title: "Special Event Service",
+      title: "Special Event Service with Trained Staff",
       category: "Events",
       image: "images/paan/a6.jpeg",
       height: "h-[500px]",
@@ -133,13 +133,13 @@ function PaanGallery() {
       height: "h-[300px]",
     },
     {
-      title: "Traditional Hospitality",
-      category: "Tradition",
+      title: "Modern Counter Setup",
+      category: "Setup",
       image: "images/paan/g11.jpeg",
       height: "h-[380px]",
     },
     {
-      title: "Premium Paan Counter",
+      title: "Dressed and Trained Staff",
       category: "Setup",
       image: "/images/paan/a7.jpeg",
       height: "h-[450px]",
@@ -187,7 +187,7 @@ function PaanGallery() {
       height: "h-[500px]",
     },
     {
-      title: "Custom Counter Design",
+      title: "Custom Counter Setup",
       category: "Setup",
       image: "/images/paan/g5.jpeg",
       height: "h-[300px]",
@@ -284,19 +284,22 @@ function PaanGallery() {
               />
 
               <div
-                className="
-                  absolute
-                  inset-0
-                  bg-gradient-to-t
-                  from-[#2E7D32]/90
+  className="
+    absolute
+    inset-0
+    bg-gradient-to-t
+    from-[#2E7D32]/90
                   via-[#4CAF50]/20
-                  to-transparent
-                  opacity-0
-                  group-hover:opacity-100
-                  transition
-                  duration-500
-                "
-              />
+    to-transparent
+
+    opacity-100
+    md:opacity-0
+    md:group-hover:opacity-100
+
+    transition
+    duration-500
+  "
+></div>
 
               <span
                 className="
@@ -318,25 +321,29 @@ function PaanGallery() {
                 {item.category}
               </span>
 
+              {/* Gallery Content */}
               <div
                 className="
-                  absolute
-                  bottom-0
-                  left-0
-                  right-0
-                  p-6
-                  text-white
-                  translate-y-full
-                  group-hover:translate-y-0
-                  transition
-                  duration-500
-                "
+    absolute
+    bottom-0
+    left-0
+    right-0
+    p-6
+    text-white
+
+    translate-y-0
+    md:translate-y-full
+    md:group-hover:translate-y-0
+
+    transition
+    duration-500
+  "
               >
                 <h3 className="text-xl font-bold">
                   {item.title}
                 </h3>
 
-                <p className="text-green-100 text-sm mt-1">
+                <p className="text-gray-200 text-sm mt-1">
                   Premium Paan Counter Experience
                 </p>
               </div>

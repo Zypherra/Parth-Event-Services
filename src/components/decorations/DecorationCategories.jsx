@@ -1,18 +1,10 @@
 function DecorationCategories() {
   const categories = [
     {
-      title: "Wedding Decoration",
-      description:
-        "Elegant floral and stage decorations designed to make your special day unforgettable.",
-      image:
-        "https://images.unsplash.com/photo-1519741497674-611481863552",
-    },
-    {
       title: "Birthday Decoration",
       description:
         "Creative balloon themes and customized decorations for birthdays of all ages.",
-      image:
-        "https://images.unsplash.com/photo-1464349153735-7db50ed83c84",
+      image: "/images/decorations/balloon21.jpeg",
     },
     {
       title: "Anniversary Decoration",
@@ -25,8 +17,13 @@ function DecorationCategories() {
       title: "Baby Shower",
       description:
         "Cute and colorful themes designed to welcome your little bundle of joy.",
-      image:
-        "https://images.unsplash.com/photo-1513151233558-d860c5398176",
+      image: "/images/decorations/balloon20.jpeg",
+    },
+    {
+      title: "Wedding Decoration",
+      description:
+        "Elegant floral and stage decorations designed to make your special day unforgettable.",
+      image: "images/decorations/balloon18.jpeg",
     },
     {
       title: "Corporate Events",
@@ -39,8 +36,7 @@ function DecorationCategories() {
       title: "Festival Decoration",
       description:
         "Beautiful festive decorations for cultural celebrations and special occasions.",
-      image:
-        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622",
+      image: "images/decorations/balloon1.jpeg",
     },
   ];
 

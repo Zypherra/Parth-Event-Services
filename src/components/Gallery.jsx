@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Gallery() {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -22,17 +23,12 @@ function Gallery() {
       category: "Paan",
     },
     {
+      image: "/images/decorations/balloon9.jpeg",
+      title: "Balloon Decoration",
+      category: "Decoration",
+    },
+    {
       image: "/images/paan/meetha-paan.jpg",
-      title: "Premium Paan Counter",
-      category: "Paan",
-    },
-    {
-      image: "/images/fruits/plate2.jpeg",
-      title: "Luxury Fruit Counter",
-      category: "Fruit",
-    },
-    {
-      image: "/images/paan/g5.jpeg",
       title: "Premium Paan Counter",
       category: "Paan",
     },
@@ -77,22 +73,12 @@ function Gallery() {
       category: "Paan",
     },
     {
-      image: "/images/paan/p3.jpeg",
-      title: "Premium Paan Counter",
-      category: "Paan",
-    },
-    {
       image: "/images/decorations/balloon10.jpeg",
       title: "Balloon Decoration",
       category: "Decoration",
     },
     ,{
       image: "/images/paan/g15.jpeg",
-      title: "Premium Paan Counter",
-      category: "Paan",
-    },
-    {
-      image: "/images/paan/a2.jpeg",
       title: "Premium Paan Counter",
       category: "Paan",
     },
@@ -127,6 +113,11 @@ function Gallery() {
       category: "Fruit",
     },
     {
+      image: "/images/decorations/balloon21.jpeg",
+      title: "Birthday Decoration",
+      category: "Decoration",
+    },
+    {
       image: "/images/paan/a8.jpeg",
       title: "Premium Paan Counter",
       category: "Paan",
@@ -142,14 +133,14 @@ function Gallery() {
       category: "Fruit",
     },
     {
+      image: "/images/decorations/balloon20.jpeg",
+      title: "Baby Shower",
+      category: "Decoration",
+    },
+    {
       image: "/images/fruits/g8.jpeg",
       title: "Luxury Fruit Counter",
       category: "Fruit",
-    },
-    {
-      image: "/images/decorations/balloon9.jpeg",
-      title: "Balloon Decoration",
-      category: "Decoration",
     },
     {
       image: "/images/decorations/balloon18.jpeg",
@@ -228,10 +219,18 @@ function Gallery() {
         ))}
       </div>
 
-      <div className="text-center mt-12">
-        <button className="bg-gradient-to-r from-[#7A1F1F] to-[#f78e0f] text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 ">
-          View Full Gallery
+      <div className="text-center mt-12 flex flex-col items-center justify-center gap-3 md:flex-row md:gap-6">
+        <button className="bg-gradient-to-r from-green-500 to-emerald-700 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 ">
+          <Link to="/paan-counter">View Paan Full Gallery</Link>
         </button>
+
+        <button className="bg-gradient-to-r from-orange-400 via-yellow-400 to-red-400 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 ">
+          <Link to="/fruit-counter">View Fruit Full Gallery</Link>
+        </button>
+
+        <button className="bg-gradient-to-r from-purple-600 via-pink-500 to-rose-500 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 ">
+          <Link to="/decorations">View Decorations Full Gallery</Link>
+        </button> 
       </div>
 
     </div>

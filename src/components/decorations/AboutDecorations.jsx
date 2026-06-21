@@ -6,7 +6,7 @@ function AboutDecorations() {
         {/* Image */}
         <div className="overflow-hidden rounded-3xl shadow-xl">
           <img
-            src="https://images.unsplash.com/photo-1513151233558-d860c5398176"
+            src="images/decorations/balloon10.jpeg"
             alt="Event Decoration"
             className="w-full h-full object-cover hover:scale-105 transition duration-500"
           />

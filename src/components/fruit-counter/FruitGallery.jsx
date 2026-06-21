@@ -13,13 +13,13 @@ image: "/images/fruits/plate1.jpeg",
 height: "h-[320px]",
 },
 {
-title: "Luxury Imported Fruits",
+title: "Luxury Decorated Fruits",
 category: "Premium",
 image: "/images/fruits/plate2.jpeg",
 height: "h-[400px]",
 },
 {
-title: "Corporate Fruit Counter",
+title: "Wedding Fruit Counter",
 category: "Corporate",
 image: "/images/fruits/plate8.jpeg",
 height: "h-[520px]",
@@ -55,8 +55,8 @@ image: "/images/fruits/plate5.jpeg",
 height: "h-[400px]",
 },
 {
-title: "Corporate Fruit Counter",
-category: "Corporate",
+title: "Wedding Fruit Counter",
+category: "Wedding",
 image: "/images/fruits/g6.jpeg",
 height: "h-[520px]",
 },
@@ -161,11 +161,11 @@ return ( <section id="gallery" className="py-24 px-6 bg-[#FFFDF5]"> <div classNa
               absolute
               inset-0
               bg-gradient-to-t
-              from-black/80
-              via-black/20
+              from-[#F97316]/80
+              to-[#FACC15]
               to-transparent
 
-              opacity-100
+              opacity-80
               md:opacity-0
               md:group-hover:opacity-100
 

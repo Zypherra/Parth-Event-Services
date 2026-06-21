@@ -38,11 +38,7 @@ function WhatsAppButton() {
       transition
     "
   >
-    <FaWhatsapp size={28} />
-
-    <span className="hidden md:block font-medium">
-      Whatsapp Now
-    </span>
+    <FaWhatsapp size={32} />
   </a>
 
 </div>

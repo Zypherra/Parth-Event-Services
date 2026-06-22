@@ -13,13 +13,17 @@ function Home() {
   return (
     <>
       <Navbar/>
-      <Hero/>
-      <AboutUs />
-      <Services />
-      <Gallery />
-      <Choose />
-      <Stats />
-      <Contact />
+      
+      <main>
+        <Hero/>
+        <AboutUs />
+        <Services />
+        <Gallery />
+        <Choose />
+        <Stats />
+        <Contact />
+      </main>
+
       <Footer />
     </>
   )

@@ -11,11 +11,15 @@ function Decorations() {
   return (
     <>
       <Navbar />
-      <DecorationsHero />
-      <AboutDecorations />
-      <DecorationCategories />
-      <DecorationGallery />
-      <Contact />
+
+      <main>
+        <DecorationsHero />
+        <AboutDecorations />
+        <DecorationCategories />
+        <DecorationGallery />
+        <Contact />
+      </main>
+
       <Footer />
     </>
   );

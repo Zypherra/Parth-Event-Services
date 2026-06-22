@@ -12,12 +12,16 @@ function PaanCounter() {
   return (
     <>
       <Navbar />
-      <PaanHero />
-      <AboutPaan />
-      <PaanCategories />
-      <PaanGallery />
-      <ChoosePaan />
-      <Contact />
+
+      <main>
+        <PaanHero />
+        <AboutPaan />
+        <PaanCategories />
+        <PaanGallery />
+        <ChoosePaan />
+        <Contact />
+      </main>
+
       <Footer />
     </>
   );

@@ -70,15 +70,15 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
 
           <div className="flex gap-6 px-4">
-            <a href="#" className="hover:text-[#D4AF37]">
+            <a href="#" className="hover:text-[#D4AF37]" aria-label="Visit our Instagram page">
               <FaInstagram size={28}></FaInstagram>
             </a>
 
-            <a href="#" className="hover:text-[#D4AF37]">
+            <a href="#" className="hover:text-[#D4AF37]" aria-label="Visit our Facebook page">
               <FaFacebook size={28}></FaFacebook>
             </a>
 
-            <a href="https://wa.me/+919307738792" className="hover:text-[#D4AF37]">
+            <a href="https://wa.me/+919307738792" className="hover:text-[#D4AF37]" aria-label="Contact us on WhatsApp">
               <FaWhatsapp size={28}></FaWhatsapp>
             </a>
           </div>

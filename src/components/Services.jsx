@@ -51,7 +51,7 @@ function Services() {
                 className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:-translate-y-2 transition duration-300"
               >
                 <div className="pt-5 pb-5">
-                  <img className="rounded-sm" src={service.image}></img>
+                  <img className="rounded-sm" src={service.image} alt={service.title}></img>
                 </div>
 
                 <h3 className="text-2xl font-bold mb-4 text-[#7A1F1F]">

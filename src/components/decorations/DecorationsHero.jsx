@@ -5,6 +5,7 @@ function DecorationsHero() {
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622')",
+        alt:"Balloon Decoration",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

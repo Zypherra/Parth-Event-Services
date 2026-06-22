@@ -17,6 +17,7 @@ function WhatsAppButton() {
 
   <a
     href="https://wa.me/+919307738792"
+    aria-label="Contact us on WhatsApp"
     target="_blank"
     rel="noopener noreferrer"
     className="

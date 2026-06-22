@@ -28,6 +28,7 @@ function Contact() {
 
           <a
             href="https://wa.me/919307738792"
+            aria-label="Contact us on Whatsapp"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-600 text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-green-700 transition xs:pl-5"

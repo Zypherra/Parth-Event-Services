@@ -12,13 +12,17 @@ function FruitCounter() {
   return (
     <>
       <Navbar />
-      <FruitHero />
-      <AboutFruit />
-      <FruitCounterTypes />
-      <FruitVarieties />
-      <FruitGallery />
-      <WhyChooseFruit />
-      <Contact />
+
+      <main>      
+        <FruitHero />
+        <AboutFruit />
+        <FruitCounterTypes />
+        <FruitVarieties />
+        <FruitGallery />
+        <WhyChooseFruit />
+        <Contact />
+      </main>
+
       <Footer />
     </>
   );

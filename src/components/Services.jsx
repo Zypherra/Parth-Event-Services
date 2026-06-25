@@ -68,7 +68,7 @@ function Services() {
                   {service.description}
                 </p>
 
-                <button className="mt-6 border border-[#d97706] text-[#d97706] px-5 py-2 rounded-lg font-semibold hover:bg-[#d97706] hover:text-white transition duration-300">
+                <button className="mt-6 border border-[#92400e] text-[#92400e] px-5 py-2 rounded-lg font-semibold hover:bg-[#92400e] hover:text-white transition duration-300">
                   Learn More →
                 </button>
               </div>

@@ -5,7 +5,7 @@ function Gallery() {
   const [activeFilter, setActiveFilter] = useState("All");
 
   const gradientClasses = {
-    All: "from-[#7A1F1F] to-[#d97706]",
+    All: "from-[#7A1F1F] to-[#92400e]",
     Paan: "from-green-500 to-emerald-700",
     Fruit: "from-orange-400 via-yellow-400 to-red-400",
     Decoration: "from-purple-600 via-pink-500 to-rose-500",
@@ -211,7 +211,7 @@ function Gallery() {
                 {item.title}
               </h3>
 
-              <p className="text-[#d97706] mt-2">
+              <p className="text-[#92400e] mt-2">
                 {item.category}
               </p>
             </div>

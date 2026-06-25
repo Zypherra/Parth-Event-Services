@@ -12,7 +12,7 @@ function AboutUs() {
 
     {/* Content */}
     <div>
-      <p className="text-[#d97706] font-semibold uppercase tracking-wider mb-3">
+      <p className="text-[#92400e] font-semibold uppercase tracking-wider mb-3">
         About Us
       </p>
 
@@ -79,7 +79,7 @@ function AboutUs() {
           inline-block
           bg-gradient-to-r
           from-[#7A1F1F]
-          to-[#d97706]
+          to-[#92400e]
           text-white
           px-8
           py-3

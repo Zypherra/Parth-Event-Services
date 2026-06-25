@@ -25,20 +25,20 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
       <li>
         <Link
           to="/"
-          className="group transition duration-300 hover:text-[#d97706]"
+          className="group transition duration-300 hover:text-[#92400e]"
         >
           Home
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#92400e]"></span>
         </Link>
       </li>
 
       <li>
         <a
           href="#about"
-          className="group transition duration-300 hover:text-[#d97706]"
+          className="group transition duration-300 hover:text-[#92400e]"
         >
           About Us
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#92400e]"></span>
         </a>
       </li>
 
@@ -48,11 +48,11 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
         onMouseEnter={() => setServicesOpen(true)}
         onMouseLeave={() => setServicesOpen(false)}
       >
-        <button className="group transition duration-300 hover:text-[#d97706]">
+        <button className="group transition duration-300 hover:text-[#92400e]">
 
           Services
 
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#92400e]"></span>
 
         </button>
 
@@ -109,20 +109,20 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
       <li>
         <a
           href="#gallery"
-          className="group transition duration-300 hover:text-[#d97706]"
+          className="group transition duration-300 hover:text-[#92400e]"
         >
           Gallery
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#92400e]"></span>
         </a>
       </li>
 
       <li>
         <a
           href="#contact"
-          className="group transition duration-300 hover:text-[#d97706]"
+          className="group transition duration-300 hover:text-[#92400e]"
         >
           Contact Us
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#92400e]"></span>
         </a>
       </li>
     </ul>

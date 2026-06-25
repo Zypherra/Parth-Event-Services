@@ -15,7 +15,7 @@ function Contact() {
           we're ready to create an unforgettable experience.
         </p>
 
-        <div className="text-amber-600 font-medium p-4 font-stretch-205%">Book Now!</div>
+        <div className="text-[#92400e] font-medium p-4 font-stretch-205%">Book Now!</div>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
 
@@ -27,11 +27,11 @@ function Contact() {
           </a>
 
           <a
-            href="https://wa.me/919307738792"
+            href="https://wa.me/+919307738792"
             aria-label="Contact us on Whatsapp"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-600 text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-green-700 transition xs:pl-5"
+            className="bg-green-700 text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-green-800 transition xs:pl-5"
           >
             <FaWhatsapp size={20}></FaWhatsapp> <span>WhatsApp Us</span>
           </a>

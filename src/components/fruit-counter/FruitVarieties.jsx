@@ -85,7 +85,9 @@ image: "/images/fruits/plum.jpg",
 },
 ];
 
-return ( <section className="py-24 px-6 bg-white"> <div className="max-w-7xl mx-auto">
+return ( 
+  <section id="selections" className="py-24 px-6 bg-white"> 
+   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-16">
       <p className="text-[#F97316] font-semibold uppercase tracking-wider mb-3">
         Fruit Selection

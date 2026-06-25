@@ -4,28 +4,25 @@ function Services() {
   const services = [
     {
       title: "The Paan Junction",
-      description:
-        "Premium paan counters with a variety of traditional and modern paan flavors, perfect for weddings and special events.",
+      description: "Premium Paan counters with a variety of traditional and modern paan flavors, perfect for weddings and special events.",
       icon: "🌿",
-      image: "/images/home/paan-service.jpeg",
+      image: "/images/paan/g1.jpeg",
       height: "600",
       width:"800",
       path: "/paan-counter",
     },
     {
       title: "The Fruit Junction",
-      description:
-        "Fresh fruit counters beautifully presented with hygienic preparation and attractive displays.",
+      description: "Premium Fruit counters serving fresh fruits beautifully presented with hygienic preparation and attractive displays.",
       icon: "🍓",
-      image: "/images/home/fruit-service.jpeg",
+      image: "/images/fruits/g2.jpeg",
       height: "600",
       width:"800",
       path: "/fruit-counter",
     },
     {
       title: "Balloon & Flower Decoration",
-      description:
-        "Creative decoration solutions for weddings, birthdays, anniversaries, pooja and corporate events.",
+      description: "Creative decoration solutions for birthdays, anniversaries, festivities and corporate events.",
       icon: "🎈",
       image: "/images/home/balloon-service.jpeg",
       height: "600",

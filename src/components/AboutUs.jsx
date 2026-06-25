@@ -43,36 +43,6 @@ function AboutUs() {
         hosts and guests.
       </p>
 
-      {/* Stats */}
-      <div className="grid grid-cols-3 gap-6 mb-8">
-        <div>
-          <h3 className="text-3xl font-bold text-[#7A1F1F]">
-            500+
-          </h3>
-          <p className="text-gray-600 text-sm">
-            Events Served
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-3xl font-bold text-[#7A1F1F]">
-            100%
-          </h3>
-          <p className="text-gray-600 text-sm">
-            Client Focused
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-3xl font-bold text-[#7A1F1F]">
-            24/7
-          </h3>
-          <p className="text-gray-600 text-sm">
-            Support
-          </p>
-        </div>
-      </div>
-
       <a
         href="#contact"
         className="

@@ -8,81 +8,83 @@ function AboutPaan() {
           <img
             src="/images/paan/paan-logo2.jpeg"
             alt="Premium Paan Counter"
-            className="w-full h-full object-contain hover:scale-105 transition duration-500 "
+            className="w-full h-full object-cover hover:scale-105 transition duration-500"
           />
         </div>
 
         {/* Content */}
-        <div>
+        <div className="space-y-6">
 
-          <p className="text-[#D4AF37] font-semibold uppercase tracking-wider mb-3">
+          <p className="text-[#D4AF37] font-semibold uppercase tracking-wider">
             About Our Service
           </p>
 
-          <h2 className="text-4xl font-bold text-[#2E7D32] mb-6">
+          <h2 className="text-4xl font-bold text-[#2E7D32]">
             The Paan Junction
           </h2>
 
-          <p className="text-gray-600 leading-relaxed mb-4">
-            At Parth Event Services, we offer premium paan counter
-            setups that combine traditional flavors with elegant
-            presentation, creating a memorable experience for your guests.
+          <p className="text-gray-600 leading-relaxed">
+            At Parth Event Services, we offer premium paan counter setups
+            that combine traditional flavors with elegant presentation,
+            creating a memorable experience for your guests.
           </p>
 
-          <p className="text-gray-600 leading-relaxed mb-4">
+          <p className="text-gray-600 leading-relaxed">
             Our counters feature a wide range of paan varieties prepared
             using fresh ingredients and served hygienically by experienced staff.
           </p>
 
-          <p className="text-gray-600 leading-relaxed mb-8">
-            Whether it's a wedding, reception, corporate event,
-            birthday celebration, or festive gathering, our paan
-            counters add a unique touch of hospitality and tradition.
+          <p className="text-gray-600 leading-relaxed">
+            Whether it's a wedding, reception, corporate event, birthday celebration,
+            or festive gathering, our paan counters add a unique touch of hospitality
+            and tradition.
           </p>
 
           {/* Features */}
-          <div className="grid sm:grid-cols-2 gap-4 mb-8">
+          <div className="grid sm:grid-cols-2 gap-4 pt-4">
 
-            <div className="bg-white p-4 rounded-xl shadow-md">
+            <div className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition">
               🌿 Fresh Ingredients
             </div>
 
-            <div className="bg-white p-4 rounded-xl shadow-md">
+            <div className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition">
               🧼 Hygienic Preparation
             </div>
 
-            <div className="bg-white p-4 rounded-xl shadow-md">
-              🍃 Premium Paan Varieties
+            <div className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition">
+              🍃 Premium Varieties
             </div>
 
-            <div className="bg-white p-4 rounded-xl shadow-md">
+            <div className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition">
               🎉 Live Counter Setup
             </div>
 
           </div>
 
-          <a
-            href="#services"
-            className="
-              inline-block
-              bg-gradient-to-r
-              from-[#2E7D32]
-              to-[#4CAF50]
-              text-white
-              px-6
-              py-3
-              rounded-xl
-              font-semibold
-              hover:scale-105
-              transition
-              duration-300
-            "
-          >
-            Explore Our Varieties
-          </a>
+          {/* Button */}
+          <div className="pt-6">
+            <a
+              href="#gallery"
+              className="
+                inline-block
+                bg-gradient-to-r
+                from-[#2E7D32]
+                to-[#4CAF50]
+                text-white
+                px-6
+                py-3
+                rounded-xl
+                font-semibold
+                hover:scale-105
+                transition
+                duration-300
+              "
+            >
+              Explore Our Varieties
+            </a>
+          </div>
 
         </div>
-
       </div>
     </section>
   );

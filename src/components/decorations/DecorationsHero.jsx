@@ -43,7 +43,7 @@ function DecorationsHero() {
             href="#contact"
             className="border-2 border-white px-8 py-3 rounded-xl font-semibold hover:bg-white hover:text-black transition duration-300"
           >
-            Get Quote
+            Get a Free Quote
           </a>
         </div>
       </div>

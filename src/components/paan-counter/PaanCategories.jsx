@@ -39,7 +39,7 @@ function PaanCategories() {
   ];
 
   return (
-    <section id="services" className="py-24 px-6 bg-white">
+    <section id="varieties" className="py-24 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}

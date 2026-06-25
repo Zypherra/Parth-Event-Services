@@ -37,7 +37,7 @@ function Gallery() {
       title: "Balloon Decoration",
       category: "Decoration",
     },
-    , {
+    {
       image: "/images/paan/p1.jpeg",
       title: "Premium Paan Counter",
       category: "Paan",
@@ -197,23 +197,80 @@ function Gallery() {
         {filteredItems.map((item, index) => (
           <div
             key={index}
-            className="relative overflow-hidden rounded-2xl shadow-lg group cursor-pointer"
+            className="group relative overflow-hidden rounded-2xl shadow-lg"
           >
             <img
               src={item.image}
               alt={item.title}
-              className="h-80 w-full object-cover group-hover:scale-110 transition duration-500"
               loading="lazy"
+              className="
+        h-80
+        w-full
+        object-cover
+        transition
+        duration-700
+        group-hover:scale-110
+      "
             />
 
-            <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-              <h3 className="text-white text-xl font-bold">
+            {/* Overlay */}
+            <div
+              className="
+        absolute
+        inset-0
+
+        bg-gradient-to-t
+        from-[#7A1F1F]/95
+        via-[#7A1F1F]/40
+        to-transparent
+
+        opacity-60
+        md:opacity-0
+        md:group-hover:opacity-60
+
+        transition
+        duration-500
+      "
+            ></div>
+
+            {/* Content */}
+            <div
+              className="
+        absolute
+        bottom-0
+        left-0
+        right-0
+        p-5
+
+        text-white
+
+        translate-y-0
+        md:translate-y-full
+        md:group-hover:translate-y-0
+
+        transition
+        duration-500
+      "
+            >
+              <span
+                className="
+          inline-block
+          mb-2
+          px-3
+          py-1
+          rounded-full
+          bg-[#d97706]
+          text-white
+          text-xs
+          font-medium
+        "
+              >
+                {item.category}
+              </span>
+
+              <h3 className="text-lg font-bold">
                 {item.title}
               </h3>
-
-              <p className="text-[#92400e] mt-2">
-                {item.category}
-              </p>
             </div>
           </div>
         ))}

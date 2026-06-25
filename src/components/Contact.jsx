@@ -1,6 +1,23 @@
+import { useLocation } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
+  const location = useLocation();
+
+  let message = "Hello! I want to enquire about your event services.";
+
+  if (location.pathname === "/paan-counter") {
+    message = "Hi! I want to book a Paan Counter for my event.";
+  } 
+  else if (location.pathname === "/fruit-counter") {
+    message = "Hi! I want a Fruit Counter for my event.";
+  } 
+  else if (location.pathname === "/decorations") {
+    message = "Hi! I need decoration services for my event.";
+  }
+
+  const encodedMessage = encodeURIComponent(message);
+
   return (
     <section id="contact" className="py-24 px-6 bg-[#f8f5f0]">
       <div className="max-w-5xl mx-auto text-center">
@@ -10,7 +27,7 @@ function Contact() {
         </h2>
 
         <p className="text-lg text-gray-600 mb-1">
-          Whether it's a wedding, birthday, anniversary,
+          Whether it's a wedding, birthday, anniversary, festivities, 
           corporate event, or special celebration,
           we're ready to create an unforgettable experience.
         </p>
@@ -27,7 +44,7 @@ function Contact() {
           </a>
 
           <a
-            href="https://wa.me/+919307738792"
+            href={`https://wa.me/919307738792?text=${encodedMessage}`}
             aria-label="Contact us on Whatsapp"
             target="_blank"
             rel="noopener noreferrer"

@@ -21,7 +21,7 @@ function PaanHero() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <a href="#gallery">
+          <a href="#varieties">
             <button className="bg-[#D4AF37] text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition duration-300">
               View Paan Varieties
             </button>
@@ -29,7 +29,7 @@ function PaanHero() {
 
           <a href="#contact">
             <button className="border-2 border-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-[#2E7D32] transition duration-300">
-              Get Free Quote
+              Get a Free Quote
             </button>
           </a>
         </div>

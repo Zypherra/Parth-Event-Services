@@ -44,10 +44,10 @@ function AboutDecorations() {
 
           <div className="mt-8">
             <a
-              href="#contact"
+              href="#services"
               className="inline-block bg-gradient-to-r from-[#9333EA] to-[#EC4899] text-white px-6 py-3 rounded-xl font-semibold hover:scale-105 transition duration-300"
             >
-              Get a Free Quote
+              Explore our Services
             </a>
           </div>
         </div>

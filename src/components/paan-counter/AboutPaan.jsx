@@ -4,9 +4,9 @@ function AboutPaan() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
         {/* Image */}
-        <div className="overflow-hidden rounded-3xl shadow-xl h-120 w-120">
+        <div className="overflow-hidden rounded-3xl shadow-xl">
           <img
-            src="/images/paan/paan-logo.jpeg"
+            src="/images/paan/paan-logo2.jpeg"
             alt="Premium Paan Counter"
             className="w-full h-full object-contain hover:scale-105 transition duration-500 "
           />
@@ -20,8 +20,7 @@ function AboutPaan() {
           </p>
 
           <h2 className="text-4xl font-bold text-[#2E7D32] mb-6">
-            Bringing Tradition &
-            Hospitality To Every Event
+            The Paan Junction
           </h2>
 
           <p className="text-gray-600 leading-relaxed mb-4">

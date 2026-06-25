@@ -13,16 +13,40 @@ function DecorationGallery() {
       height: "h-[320px]",
     },
     {
+      title: "Haldi Ceremony Decor",
+      category: "Festival",
+      image: "/images/decorations/balloon22.jpeg",
+      height: "h-[420px]",
+    },
+    {
       title: "Birthday Balloon Theme",
       category: "Birthday",
       image: "/images/decorations/balloon3.jpeg",
       height: "h-[400px]",
     },
     {
-      title: "Birthday Room Setup",
+      title: "Birthday Stage Decor",
+      category: "Birthday",
+      image: "/images/decorations/balloon21.jpeg",
+      height: "h-[320px]",
+    },
+    {
+      title: "Birthday Home Decor",
       category: "Birthday",
       image: "/images/decorations/balloon4.jpeg",
       height: "h-[520px]",
+    },
+    {
+      title: "Haldi Ceremony Decor",
+      category: "Wedding",
+      image: "/images/decorations/balloon26.jpeg",
+      height: "h-[460px]",
+    },
+    {
+      title: "Simple Anniversay Celebration Stage",
+      category: "Festival",
+      image: "/images/decorations/balloon23.jpeg",
+      height: "h-[360px]",
     },
     {
       title: "Birthday Restaurant Decoration",
@@ -43,6 +67,12 @@ function DecorationGallery() {
       height: "h-[300px]",
     },
     {
+      title: "Haldi-Mehendi Ceremony Room Decor",
+      category: "Wedding",
+      image: "/images/decorations/balloon28.jpeg",
+      height: "h-[390px]",
+    },
+    {
       title: "Premium Balloon Decoration",
       category: "Birthday",
       image: "/images/decorations/balloon8.jpeg",
@@ -55,10 +85,22 @@ function DecorationGallery() {
       height: "h-[380px]",
     },
     {
+      title: "Haldi Ceremony Decor",
+      category: "Wedding",
+      image: "/images/decorations/balloon30.jpeg",
+      height: "h-[520px]",
+    },
+    {
       title: "Birthday Stage Decor",
       category: "Birthday",
       image: "/images/decorations/balloon10.jpeg",
       height: "h-[450px]",
+    },
+    {
+      title: "Haldi Stage Decor",
+      category: "Wedding",
+      image: "/images/decorations/balloon27.jpeg",
+      height: "h-[380px]",
     },
     {
       title: "Elegant Theme Decoration",
@@ -79,6 +121,12 @@ function DecorationGallery() {
       height: "h-[520px]",
     },
     {
+      title: "Haldi Stage Decor",
+      category: "Wedding",
+      image: "/images/decorations/balloon26.jpeg",
+      height: "h-[380px]",
+    },
+    {
       title: "Birthday Room Decoration",
       category: "Birthday",
       image: "/images/decorations/balloon14.jpeg",
@@ -97,6 +145,12 @@ function DecorationGallery() {
       height: "h-[300px]",
     },
     {
+      title: "Birthday Decoration",
+      category: "Birthday",
+      image: "/images/decorations/balloon20.jpeg",
+      height: "h-[410px]",
+    },
+    {
       title: "Ganessh Chaturthi Pandal Decoration",
       category: "Festival",
       image: "/images/decorations/balloon17.jpeg",
@@ -109,6 +163,12 @@ function DecorationGallery() {
       height: "h-[380px]",
     },
     {
+      title: "Birthday Decoration",
+      category: "Birthday",
+      image: "/images/decorations/balloon24.jpeg",
+      height: "h-[320px]",
+    },
+    {
       title: "Premium Flower Arrangement",
       category: "Wedding",
       image: "/images/decorations/balloon19.jpeg",
@@ -117,7 +177,7 @@ function DecorationGallery() {
     {
       title: "Welcome Baby Decoration",
       category: "Festival",
-      image: "/images/decorations/balloon20.jpeg",
+      image: "/images/decorations/balloon25.jpeg",
       height: "h-[380px]",
     },
   ];

@@ -5,7 +5,7 @@ function AboutFruit() {
 
         <div className="overflow-hidden rounded-3xl shadow-xl">
           <img
-            src="/images/fruits/g2.jpeg"
+            src="/images/fruits/fruit-logo2.jpeg"
             alt="Fruit Counter"
             className="w-full h-full object-cover hover:scale-105 transition duration-500"
           />
@@ -18,7 +18,7 @@ function AboutFruit() {
           </p>
 
           <h2 className="text-4xl font-bold text-[#7C2D12] mb-6">
-            The Fruit Junction
+            The Fruits Junction
           </h2>
 
           <p className="text-gray-600 leading-relaxed mb-4">

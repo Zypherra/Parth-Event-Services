@@ -10,27 +10,25 @@ function DecorationCategories() {
       title: "Anniversary Decoration",
       description:
         "Romantic and sophisticated setups to celebrate memorable milestones.",
-      image:
-        "https://images.unsplash.com/photo-1519225421980-715cb0215aed",
+      image: "images/decorations/balloon23.jpeg",
     },
     {
       title: "Baby Shower",
       description:
         "Cute and colorful themes designed to welcome your little bundle of joy.",
-      image: "/images/decorations/balloon20.jpeg",
+      image: "/images/decorations/balloon25.jpeg",
     },
     {
       title: "Wedding Decoration",
       description:
         "Elegant floral and stage decorations designed to make your special day unforgettable.",
-      image: "images/decorations/balloon18.jpeg",
+      image: "images/decorations/balloon26.jpeg",
     },
     {
       title: "Corporate Events",
       description:
         "Professional event decorations that enhance your brand presence and atmosphere.",
-      image:
-        "https://images.unsplash.com/photo-1511578314322-379afb476865",
+      image: "images/decorations/corporate.jpeg",
     },
     {
       title: "Festival Decoration",

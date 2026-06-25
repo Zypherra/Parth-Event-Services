@@ -5,7 +5,7 @@ function Gallery() {
   const [activeFilter, setActiveFilter] = useState("All");
 
   const gradientClasses = {
-    All: "from-[#7A1F1F] to-[#f78e0f]",
+    All: "from-[#7A1F1F] to-[#d97706]",
     Paan: "from-green-500 to-emerald-700",
     Fruit: "from-orange-400 via-yellow-400 to-red-400",
     Decoration: "from-purple-600 via-pink-500 to-rose-500",
@@ -37,7 +37,7 @@ function Gallery() {
       title: "Balloon Decoration",
       category: "Decoration",
     },
-    ,{
+    , {
       image: "/images/paan/p1.jpeg",
       title: "Premium Paan Counter",
       category: "Paan",
@@ -77,7 +77,7 @@ function Gallery() {
       title: "Balloon Decoration",
       category: "Decoration",
     },
-    ,{
+    , {
       image: "/images/paan/g15.jpeg",
       title: "Premium Paan Counter",
       category: "Paan",
@@ -180,7 +180,7 @@ function Gallery() {
       <div className="flex justify-center flex-wrap gap-4 mb-12">
         {filters.map((filter) => (
           <button
-            key={filter} 
+            key={filter}
             onClick={() => setActiveFilter(filter)}
             className={`
               px-6 py-2 ml-1 rounded-full font-bold text-white
@@ -211,7 +211,7 @@ function Gallery() {
                 {item.title}
               </h3>
 
-              <p className="text-[#f78e0f] mt-2">
+              <p className="text-[#d97706] mt-2">
                 {item.category}
               </p>
             </div>
@@ -220,17 +220,28 @@ function Gallery() {
       </div>
 
       <div className="text-center mt-12 flex flex-col items-center justify-center gap-3 md:flex-row md:gap-6">
-        <button className="bg-gradient-to-r from-green-500 to-emerald-700 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 ">
-          <Link to="/paan-counter">View Paan Full Gallery</Link>
-        </button>
 
-        <button className="bg-gradient-to-r from-orange-400 via-yellow-400 to-red-400 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 ">
-          <Link to="/fruit-counter">View Fruit Full Gallery</Link>
-        </button>
+        <Link
+          to="/paan-counter"
+          className="bg-gradient-to-r from-green-500 to-emerald-700 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300"
+        >
+          Explore Paan Gallery
+        </Link>
 
-        <button className="bg-gradient-to-r from-purple-600 via-pink-500 to-rose-500 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 ">
-          <Link to="/decorations">View Decorations Full Gallery</Link>
-        </button> 
+        <Link
+          to="/fruit-counter"
+          className="bg-gradient-to-r from-orange-400 via-yellow-400 to-red-400 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 "
+        >
+          Explore Fruit Gallery
+        </Link>
+
+        <Link
+          to="/decorations"
+          className="bg-gradient-to-r from-purple-600 via-pink-500 to-rose-500 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition duration-300 "
+        >
+          Explore Decorations Gallery
+        </Link>
+
       </div>
 
     </div>

@@ -1,5 +1,5 @@
 function AboutUs() {
-return ( <section id="about" className="py-24 px-6 bg-white"> <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+  return (<section id="about" className="py-24 px-6 bg-white"> <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
     {/* Image */}
     <div className="overflow-hidden rounded-3xl shadow-xl">
@@ -12,7 +12,7 @@ return ( <section id="about" className="py-24 px-6 bg-white"> <div className="ma
 
     {/* Content */}
     <div>
-      <p className="text-[#f78e0f] font-semibold uppercase tracking-wider mb-3">
+      <p className="text-[#d97706] font-semibold uppercase tracking-wider mb-3">
         About Us
       </p>
 
@@ -79,7 +79,7 @@ return ( <section id="about" className="py-24 px-6 bg-white"> <div className="ma
           inline-block
           bg-gradient-to-r
           from-[#7A1F1F]
-          to-[#f78e0f]
+          to-[#d97706]
           text-white
           px-8
           py-3
@@ -95,9 +95,9 @@ return ( <section id="about" className="py-24 px-6 bg-white"> <div className="ma
     </div>
 
   </div>
-</section>
+  </section>
 
-);
+  );
 }
 
 export default AboutUs;

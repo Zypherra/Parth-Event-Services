@@ -25,20 +25,20 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
       <li>
         <Link
           to="/"
-          className="group transition duration-300 hover:text-[#f78e0f]"
+          className="group transition duration-300 hover:text-[#d97706]"
         >
           Home
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
         </Link>
       </li>
 
       <li>
         <a
           href="#about"
-          className="group transition duration-300 hover:text-[#f78e0f]"
+          className="group transition duration-300 hover:text-[#d97706]"
         >
           About Us
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
         </a>
       </li>
 
@@ -48,11 +48,11 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
         onMouseEnter={() => setServicesOpen(true)}
         onMouseLeave={() => setServicesOpen(false)}
       >
-        <button className="group transition duration-300 hover:text-[#f78e0f]">
+        <button className="group transition duration-300 hover:text-[#d97706]">
 
           Services
 
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
 
         </button>
 
@@ -109,20 +109,20 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
       <li>
         <a
           href="#gallery"
-          className="group transition duration-300 hover:text-[#f78e0f]"
+          className="group transition duration-300 hover:text-[#d97706]"
         >
           Gallery
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
         </a>
       </li>
 
       <li>
         <a
           href="#contact"
-          className="group transition duration-300 hover:text-[#f78e0f]"
+          className="group transition duration-300 hover:text-[#d97706]"
         >
           Contact Us
-          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#f78e0f]"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-[#d97706]"></span>
         </a>
       </li>
     </ul>
@@ -155,6 +155,7 @@ return ( <nav className="fixed top-0 left-0 w-full bg-white/50 backdrop-blur-md 
 
     {/* Hamburger */}
     <button
+      aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
       onClick={() => setMobileOpen(!mobileOpen)}
       className="lg:hidden relative w-8 h-8"
     >

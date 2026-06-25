@@ -8,6 +8,8 @@ function Services() {
         "Premium paan counters with a variety of traditional and modern paan flavors, perfect for weddings and special events.",
       icon: "🌿",
       image: "/images/home/paan-service.jpeg",
+      height: "600",
+      width:"800",
       path: "/paan-counter",
     },
     {
@@ -16,6 +18,8 @@ function Services() {
         "Fresh fruit counters beautifully presented with hygienic preparation and attractive displays.",
       icon: "🍓",
       image: "/images/home/fruit-service.jpeg",
+      height: "600",
+      width:"800",
       path: "/fruit-counter",
     },
     {
@@ -24,6 +28,8 @@ function Services() {
         "Creative decoration solutions for weddings, birthdays, anniversaries, pooja and corporate events.",
       icon: "🎈",
       image: "/images/home/balloon-service.jpeg",
+      height: "600",
+      width:"800",
       path: "/decorations",
     },
   ];
@@ -51,7 +57,7 @@ function Services() {
                 className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:-translate-y-2 transition duration-300"
               >
                 <div className="pt-5 pb-5">
-                  <img className="rounded-sm" src={service.image} alt={service.title}></img>
+                  <img className="rounded-sm" src={service.image} alt={service.title} height={service.height} width={service.width}></img>
                 </div>
 
                 <h3 className="text-2xl font-bold mb-4 text-[#7A1F1F]">
@@ -62,7 +68,7 @@ function Services() {
                   {service.description}
                 </p>
 
-                <button className="mt-6 border border-[#f78e0f] text-[#f78e0f] px-5 py-2 rounded-lg font-semibold hover:bg-[#f78e0f] hover:text-white transition duration-300">
+                <button className="mt-6 border border-[#d97706] text-[#d97706] px-5 py-2 rounded-lg font-semibold hover:bg-[#d97706] hover:text-white transition duration-300">
                   Learn More →
                 </button>
               </div>

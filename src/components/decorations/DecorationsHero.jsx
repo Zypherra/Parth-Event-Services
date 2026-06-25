@@ -15,7 +15,7 @@ function DecorationsHero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl px-6 text-white">
-        <p className="uppercase tracking-[4px] text-[#f78e0f] font-semibold mb-4 pt-20">
+        <p className="uppercase tracking-[4px] text-[#d97706] font-semibold mb-4 pt-20">
           Parth Decoration Services
         </p>
 

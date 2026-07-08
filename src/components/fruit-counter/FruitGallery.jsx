@@ -216,7 +216,7 @@ return ( <section id="gallery" className="py-24 px-6 bg-[#FFFDF5]"> <div classNa
             </h3>
 
             <p className="text-gray-200 text-sm mt-1">
-              Fresh Premium Fruit Setup
+              By Parth Event Services
             </p>
           </div>
         </div>

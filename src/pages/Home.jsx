@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
 import AboutUs from "../components/AboutUs.jsx";
@@ -12,6 +13,24 @@ import Footer from "../components/Footer.jsx";
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>Parth Event Services | Wedding & Event Decoration Services in Lucknow</title>
+
+        <meta
+          name="description"
+          content="Parth Event Services provides premium Balloon Decoration, Flower Decoration, Paan Counter and Fruit Counter services for weddings, birthdays and corporate events in Lucknow."
+        />
+
+        <meta
+          property="og:title"
+          content="Parth Event Services | Event Decoration Services"
+        />
+
+        <meta
+          property="og:description"
+          content="Premium Event Decoration Services in Lucknow."
+        />
+      </Helmet>
       <Navbar/>
       
       <main>

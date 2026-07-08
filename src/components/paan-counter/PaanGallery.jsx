@@ -344,7 +344,7 @@ function PaanGallery() {
                 </h3>
 
                 <p className="text-gray-200 text-sm mt-1">
-                  Premium Paan Counter Experience
+                  By Parth Event Services
                 </p>
               </div>
             </div>

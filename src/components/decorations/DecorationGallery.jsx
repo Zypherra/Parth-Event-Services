@@ -314,7 +314,7 @@ function DecorationGallery() {
                 </h3>
 
                 <p className="text-gray-200 text-sm mt-1">
-                  Premium Decoration Setup
+                  By Parth Event Services
                 </p>
               </div>
             </div>

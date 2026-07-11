@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import Navbar from "../components/Navbar.jsx";
 import FruitHero from "../components/fruit-counter/FruitHero.jsx";
 import AboutFruit from "../components/fruit-counter/AboutFruit.jsx";
@@ -8,31 +7,20 @@ import FruitGallery from "../components/fruit-counter/FruitGallery.jsx";
 import WhyChooseFruit from "../components/fruit-counter/WhyChooseFruit.jsx";
 import Contact from "../components/Contact.jsx";
 import Footer from "../components/Footer.jsx";
+import SEO from "../components/SEO.jsx";
 
 function FruitCounter() {
   return (
     <>
-      <Helmet>
-        <title>Fruit Counter Services in Lucknow | Parth Event Services</title>
-
-        <meta
-            name="description"
-            content="Fresh Fruit Counter arrangements for weddings, birthdays, receptions and corporate events in Lucknow."
-        />
-
-        <meta
-            property="og:title"
-            content="Fruit Counter Services"
-        />
-
-        <meta
-            property="og:description"
-            content="Premium Fruit Counter setup for every celebration."
-        />
-      </Helmet>
+      <SEO
+        title="Fruit Counter Services | Lucknow"
+        description="Fresh fruit counter services for weddings and events in Lucknow."
+        url="https://parth-event-services.vercel.app/fruit-counter"
+        keywords="Fruit Counter Lucknow, Wedding Fruit Counter, Fresh Fruit Stall"
+      />
       <Navbar />
 
-      <main>      
+      <main>
         <FruitHero />
         <AboutFruit />
         <FruitCounterTypes />

@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
 import AboutUs from "../components/AboutUs.jsx";
@@ -9,32 +8,21 @@ import Stats from "../components/Stats.jsx";
 import Testimonials from "../components/Testimonials.jsx";
 import Contact from "../components/Contact.jsx";
 import Footer from "../components/Footer.jsx";
+import SEO from "../components/SEO.jsx";
 
 function Home() {
   return (
     <>
-      <Helmet>
-        <title>Parth Event Services | Wedding & Event Decoration Services in Lucknow</title>
+      <SEO
+        title="Parth Event Services | Event Decoration in Lucknow"
+        description="Professional balloon decoration, flower decoration, paan counters and fruit counters for weddings and events in Lucknow."
+        url="https://parth-event-services.vercel.app/"
+        keywords="Event Services Lucknow, Wedding Decoration, Birthday Decoration, Balloon Decoration, Flower Decoration"
+      />
+      <Navbar />
 
-        <meta
-          name="description"
-          content="Parth Event Services provides premium Balloon Decoration, Flower Decoration, Paan Counter and Fruit Counter services for weddings, birthdays and corporate events in Lucknow."
-        />
-
-        <meta
-          property="og:title"
-          content="Parth Event Services | Event Decoration Services"
-        />
-
-        <meta
-          property="og:description"
-          content="Premium Event Decoration Services in Lucknow."
-        />
-      </Helmet>
-      <Navbar/>
-      
       <main>
-        <Hero/>
+        <Hero />
         <AboutUs />
         <Services />
         <Gallery />
